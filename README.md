@@ -19,6 +19,10 @@ PLEASE NOTE THAT CAPACITIES API CANNOT ACTUALLY HANDLE CREATING OBJECTS VIA API 
 - A Capacities account with API access
 - Your GoodReads library export CSV
 
+## API Documentation
+
+This project uses the Capacities API. For more details on the API and available endpoints, see the [official Capacities API documentation](https://docs.capacities.io/developer/api#api-reference).
+
 ## Setup
 
 1. **Export your GoodReads library**
@@ -31,6 +35,7 @@ PLEASE NOTE THAT CAPACITIES API CANNOT ACTUALLY HANDLE CREATING OBJECTS VIA API 
    - Go to Settings → API
    - Generate an API token
    - Note your Space ID and Structure ID for Books
+   - See the [Capacities API documentation](https://docs.capacities.io/developer/api#api-reference) for more details
 
 3. **Install dependencies**
    ```bash
@@ -118,6 +123,10 @@ The script includes a 1.2 second delay between requests to stay within Capacitie
 **Books not showing as read:**
 - Check that the book has either a "Date Read" or a "My Rating" value in the CSV
 
+## Resources
+- [Capacities API Documentation](https://docs.capacities.io/developer/api#api-reference)
+- [GoodReads Export Guide](https://www.goodreads.com/review/import)
+  
 ## License
 
 MIT
