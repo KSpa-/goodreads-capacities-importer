@@ -37,6 +37,13 @@ This project uses the Capacities API. For more details on the API and available 
    - Note your Space ID and Structure ID for Books
    - See the [Capacities API documentation](https://docs.capacities.io/developer/api#api-reference) for more details
 
+   **Optional:** Run `find_properties.py` to see all available structures and property IDs in your space:
+   ```bash
+   export CAPACITIES_API_TOKEN="your_token"
+   export CAPACITIES_SPACE_ID="your_space_id"
+   python find_properties.py
+   ```
+
 3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
